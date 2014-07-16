@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>My list</title>
+</head>
+<body>
+<h1>/My Photo</h1>
+<ul>
+    <li>
+        <a href="img/1.jpg" >market of love</a>
+    </li>
+    <li>
+        <a href="img/Lighthouse.jpg">scene</a>
+    </li>
+    <li>
+    <a href="img/QQ图片20140415003947.jpg">screenshot</a>
+    </li>
+    <li>
+        <a href="img/Koala.jpg"> funny images</a>
+    </li>
+</ul>
+<img id ="useless" src="img/Desert.jpg" alt="desert" />
+<script>
+    function gallery(showpic)
+    {
+        var list = document.getElementById("useless")
+        list.setAttribute("src",showpic.getAttribute("href"))
+
+
+    }
+</script>
+</body>
+</html>
